@@ -1,4 +1,5 @@
 allow system_server proc_last_kmsg:file r_file_perms;
 
 # Smart charging
+r_dir_file(system_server, sysfs_battery_supply)
 allow system_server sysfs_battery_supply:file { getattr open read write };

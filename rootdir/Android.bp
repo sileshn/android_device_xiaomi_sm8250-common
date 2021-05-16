@@ -102,6 +102,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.smartcharging.rc",
+    src: "etc/init.smartcharging.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "init.target.rc",
     src: "etc/init.target.rc",
     sub_dir: "init/hw",

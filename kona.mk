@@ -412,6 +412,7 @@ PRODUCT_PACKAGES += \
     init.qcom.power.rc \
     init.qcom.rc \
     init.recovery.qcom.rc \
+	init.smartcharging.rc \
     init.target.rc \
     init.xiaomi.rc \
     fstab.qcom \
