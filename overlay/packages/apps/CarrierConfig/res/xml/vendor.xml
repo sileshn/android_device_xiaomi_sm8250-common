@@ -1582,9 +1582,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
             <item value="0201008616"/>
         </string-array>
         <boolean name="carrier_support_send_media_configs_to_radio_layer_bool" value="true"/>
-        <int-array name="carrier_nr_availabilities_int_array" num="1">
-            <item value="1"/>
-        </int-array>
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
         <boolean name="vonr_enabled_bool" value="true"/>
         <boolean name="carrier_data_channel_supported_bool" value="true"/>
@@ -1622,9 +1619,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="allow_hold_video_call_bool" value="false" />
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
         <boolean name="carrier_video_crs_supported_bool" value="true" />
-        <int-array name="carrier_nr_availabilities_int_array" num="1">
-            <item value="1"/>
-        </int-array>
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
         <boolean name="vonr_enabled_bool" value="true"/>
     </carrier_config>
@@ -1691,9 +1685,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
             <item value="0201008616"/>
         </string-array>
         <boolean name="carrier_support_send_media_configs_to_radio_layer_bool" value="true"/>
-        <int-array name="carrier_nr_availabilities_int_array" num="1">
-            <item value="1"/>
-        </int-array>
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
         <boolean name="vonr_enabled_bool" value="true"/>
         <boolean name="carrier_data_channel_supported_bool" value="true"/>
@@ -1738,9 +1729,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="support_swap_after_merge_bool" value="false"/>
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
         <boolean name="disable_filter_out_conference_host" value="true" />
-        <int-array name="carrier_nr_availabilities_int_array" num="1">
-            <item value="1"/>
-        </int-array>
         <boolean name="carrier_video_crs_supported_bool" value="true" />
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
         <boolean name="vonr_enabled_bool" value="true"/>
@@ -1753,9 +1741,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
             <string name="protocol">IPV4V6</string>
             <string name="roaming_protocol">IPV4V6</string>
         </map>
-        <int-array name="carrier_nr_availabilities_int_array" num="1">
-            <item value="1"/>
-        </int-array>
     </carrier_config>
 
     <carrier_config mcc="460" mnc="05">
@@ -1875,9 +1860,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
             <item value="0201008616"/>
         </string-array>
         <boolean name="carrier_support_send_media_configs_to_radio_layer_bool" value="true"/>
-        <int-array name="carrier_nr_availabilities_int_array" num="1">
-            <item value="1"/>
-        </int-array>
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
         <boolean name="vonr_enabled_bool" value="true"/>
         <boolean name="carrier_data_channel_supported_bool" value="true"/>
@@ -1943,9 +1925,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
             <item value="0201008616"/>
         </string-array>
         <boolean name="carrier_support_send_media_configs_to_radio_layer_bool" value="true"/>
-        <int-array name="carrier_nr_availabilities_int_array" num="1">
-            <item value="1"/>
-        </int-array>
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
         <boolean name="vonr_enabled_bool" value="true"/>
         <boolean name="carrier_data_channel_supported_bool" value="true"/>
@@ -1978,9 +1957,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="allow_hold_video_call_bool" value="false" />
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
         <boolean name="carrier_video_crs_supported_bool" value="true" />
-        <int-array name="carrier_nr_availabilities_int_array" num="1">
-            <item value="1"/>
-        </int-array>
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
         <boolean name="vonr_enabled_bool" value="true"/>
     </carrier_config>
@@ -2033,9 +2009,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="support_swap_after_merge_bool" value="false"/>
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
         <boolean name="disable_filter_out_conference_host" value="true" />
-        <int-array name="carrier_nr_availabilities_int_array" num="1">
-            <item value="1"/>
-        </int-array>
         <boolean name="carrier_video_crs_supported_bool" value="true" />
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
         <boolean name="vonr_enabled_bool" value="true"/>
@@ -2133,9 +2106,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="transmit_static_image" value="true"/>
         <boolean name="show_static_image_ui" value="true"/>
         <boolean name="carrier_support_send_media_configs_to_radio_layer_bool" value="true"/>
-        <int-array name="carrier_nr_availabilities_int_array" num="1">
-            <item value="1"/>
-        </int-array>
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
         <boolean name="vonr_enabled_bool" value="true"/>
         <boolean name="vonr_setting_visibility_bool" value="false"/>
@@ -2174,9 +2144,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="allow_hold_video_call_bool" value="false" />
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
         <boolean name="carrier_video_crs_supported_bool" value="true" />
-        <int-array name="carrier_nr_availabilities_int_array" num="1">
-            <item value="1"/>
-        </int-array>
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
         <boolean name="vonr_enabled_bool" value="true"/>
     </carrier_config>
