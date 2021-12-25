@@ -7,6 +7,9 @@ suspend.max_sleep_time_millis=40000
 ro.config.media_vol_default=8
 ro.config.media_vol_steps=25
 
+#AvoidGfxAccel 
+ro.config.avoid_gfx_accel=true
+
 # Camera
 camera.disable_zsl_mode=true
 
