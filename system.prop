@@ -30,6 +30,7 @@ ro.launcher.blur.appLaunch=0
 
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.systemuicompilerfilter=speed
 
 # DPM
 persist.vendor.dpm.feature=11
