@@ -294,6 +294,9 @@ telephony.active_modems.max_count=2
 # Thermal
 vendor.sys.thermal.data.path=/data/vendor/thermal/
 
+# Thermal
+vendor.sys.thermal.data.path=/data/vendor/thermal/
+
 # USB
 vendor.usb.diag.func.name=diag
 vendor.usb.dpl.inst.name=dpl
