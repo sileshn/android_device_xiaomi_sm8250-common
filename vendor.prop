@@ -64,7 +64,6 @@ vendor.audio.feature.external_dsp.enable=false
 vendor.audio.feature.external_speaker.enable=false
 vendor.audio.feature.external_speaker_tfa.enable=false
 vendor.audio.feature.fluence.enable=true
-vendor.audio.feature.fm.enable=true
 vendor.audio.feature.hdmi_edid.enable=true
 vendor.audio.feature.hdmi_passthrough.enable=true
 vendor.audio.feature.hfp.enable=true
@@ -142,7 +141,6 @@ persist.vendor.qcom.bluetooth.soc=hastings
 ro.bluetooth.a2dp_offload.supported=true
 ro.vendor.bluetooth.wipower=false
 vendor.qcom.bluetooth.soc=hastings
-vendor.hw.fm.init=0
 
 # Chipset
 ro.soc.manufacturer=QTI
