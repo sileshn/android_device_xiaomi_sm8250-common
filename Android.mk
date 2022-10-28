@@ -36,6 +36,14 @@ $(ACDBDATA_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 	@echo "Creating acdbdata symlinks: $@"
 	@mkdir -p $@
 	$(hide) ln -sf /vendor/etc/acdbdata/adsp_avs_config.acdb $@/adsp_avs_config.acdb
+	
+IMS_LIBS := libimscamera_jni.so libimsmedia_jni.so
+IMS_SYMLINKS := $(addprefix $(TARGET_OUT_SYSTEM_EXT_APPS_PRIVILEGED)/ims/lib/arm64/,$(notdir $(IMS_LIBS)))
+$(IMS_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
+	@echo "IMS lib link: $@"
+	@mkdir -p $(dir $@)
+	@rm -rf $@
+	$(hide) ln -sf /system_ext/lib64/$(notdir $@) $@
 
 RFS_APQ_GNSS_SYMLINKS := $(TARGET_OUT_VENDOR)/rfs/apq/gnss/
 $(RFS_APQ_GNSS_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
@@ -157,7 +165,7 @@ $(RFS_MSM_SLPI_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 	$(hide) ln -sf /vendor/firmware_mnt $@/readonly/firmware
 	$(hide) ln -sf /vendor/firmware $@/readonly/vendor/firmware
 
-ALL_DEFAULT_INSTALLED_MODULES += $(ACDBDATA_SYMLINKS) $(RFS_APQ_GNSS_SYMLINKS) $(RFS_MDM_ADSP_SYMLINKS) $(RFS_MDM_CDSP_SYMLINKS) $(RFS_MDM_MPSS_SYMLINKS) $(RFS_MDM_SLPI_SYMLINKS) $(RFS_MDM_TN_SYMLINKS) $(RFS_MSM_ADSP_SYMLINKS) $(RFS_MSM_CDSP_SYMLINKS) $(RFS_MSM_MPSS_SYMLINKS) $(RFS_MSM_SLPI_SYMLINKS)
+ALL_DEFAULT_INSTALLED_MODULES += $(ACDBDATA_SYMLINKS) $(IMS_SYMLINKS) $(RFS_APQ_GNSS_SYMLINKS) $(RFS_MDM_ADSP_SYMLINKS) $(RFS_MDM_CDSP_SYMLINKS) $(RFS_MDM_MPSS_SYMLINKS) $(RFS_MDM_SLPI_SYMLINKS) $(RFS_MDM_TN_SYMLINKS) $(RFS_MSM_ADSP_SYMLINKS) $(RFS_MSM_CDSP_SYMLINKS) $(RFS_MSM_MPSS_SYMLINKS) $(RFS_MSM_SLPI_SYMLINKS)
 
 WIFI_FIRMWARE_SYMLINKS := $(TARGET_OUT_VENDOR)/firmware/wlan/qca_cld
 $(WIFI_FIRMWARE_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
