@@ -296,7 +296,8 @@ PRODUCT_PACKAGES += \
 
 # KProfiles
 PRODUCT_PACKAGES += \
-    KProfiles
+    KProfiles \
+    KProfilesOverlay
 
 # Media
 PRODUCT_PACKAGES += \
