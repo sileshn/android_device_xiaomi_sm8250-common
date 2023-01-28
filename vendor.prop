@@ -265,7 +265,6 @@ persist.vendor.ssr.restart_level=ALL_ENABLE
 
 #Surfaceflinger
 debug.sf.enable_transaction_tracing=false
-debug.sf.enable_advanced_sf_phase_offset=1
 debug.sf.enable_hwc_vds=1
 debug.sf.high_fps_early_gl_phase_offset_ns=-4000000
 debug.sf.high_fps_early_phase_offset_ns=-4000000
