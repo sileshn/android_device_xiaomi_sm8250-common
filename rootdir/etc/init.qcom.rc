@@ -249,9 +249,6 @@ on post-fs-data
     # Create directory used by display clients
     mkdir /data/vendor/display 0770 system graphics
 
-    # Change lm related dirs
-    mkdir /data/vendor/lm 0700 root root
-
     # Create directory used by powermodule
     mkdir /data/vendor/pwr 0700 root root
 
@@ -395,13 +392,6 @@ service nqnfcinfo /system/vendor/bin/nqnfcinfo
     group nfc
     user system
     oneshot
-
-service iop /system/vendor/bin/iop
-    class main
-    user root
-    group root
-    disabled
-    socket iop seqpacket 0666 root system
 
 on property:ro.vendor.iocgrp.config=1
     mkdir /dev/blkio
