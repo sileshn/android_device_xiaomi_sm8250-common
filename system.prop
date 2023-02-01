@@ -50,11 +50,6 @@ persist.vendor.ims.disableQXDMLogs=1
 vendor.iop.enable_prefetch_ofr=1
 vendor.iop.enable_uxe=0
 
-# LMK properties
-ro.lmk.use_minfree_levels=true
-ro.lmk.kill_heaviest_task=true
-ro.lmk.kill_timeout_ms=15
-
 # LMK
 ro.config.low_ram=false
 
