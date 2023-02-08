@@ -29,7 +29,7 @@ namespace V2_1 {
 namespace implementation {
 
 static constexpr const char* kHbmStatusPath =
-        "/sys/class/drm/card0/card0-DSI-1/disp_param";
+        "/sys/devices/platform/soc/soc:qcom,dsi-display-primary/hbm";
 
 Return<bool> SunlightEnhancement::isEnabled() {
     std::string buf;
