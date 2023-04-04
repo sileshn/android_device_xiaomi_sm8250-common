@@ -10,6 +10,10 @@ camera.disable_zsl_mode=true
 # Charger
 ro.charger.disable_init_blank=true
 
+# Deep Sleep
+pm.sleep_mode=1
+vendor.post_boot.parsed=1
+
 # Display
 debug.gralloc.gfx_ubwc_disable=0
 debug.sf.enable_hwc_vds=0
