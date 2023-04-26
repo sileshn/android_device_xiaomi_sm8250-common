@@ -48,6 +48,9 @@ on early-init
 	
     # Start audio adsp rpc daemon at early init stage
     start vendor.audioadsprpcd_audiopd
+	
+	mkdir /dev/stune
+    mount cgroup none /dev/stune nodev noexec nosuid schedtune
 
 on init
     # Boot time cpuset and stune
@@ -65,9 +68,6 @@ on init
     write /dev/stune/top-app/schedtune.prefer_idle 1
     write /dev/stune/top-app/schedtune.prefer_high_cap 1
     write /dev/stune/top-app/schedtune.boost 100
-
-    mkdir /dev/stune
-    mount cgroup none /dev/stune nodev noexec nosuid schedtune
     
     write /dev/stune/foreground/schedtune.sched_boost_no_override 1
     write /dev/stune/top-app/schedtune.sched_boost_no_override 1
